@@ -227,6 +227,44 @@
 ## 
 
 
+## Common `sudo` Commands
+
+| Command                                       | Description                                                   |
+|-----------------------------------------------|---------------------------------------------------------------|
+| `sudo apt-get update`                         | Update package lists                                          |
+| `sudo apt-get upgrade`                        | Upgrade installed packages                                    |
+| `sudo apt-get install package_name`           | Install a package                                             |
+| `sudo apt-get remove package_name`            | Remove a package                                              |
+| `sudo mkdir /path/to/directory`               | Create a directory                                            |
+| `sudo rmdir /path/to/directory`               | Remove a directory                                            |
+| `sudo rm /path/to/file`                       | Remove a file                                                 |
+| `sudo mv /path/to/source /path/to/destination`| Move or rename a file or directory                            |
+| `sudo cp /path/to/source /path/to/destination`| Copy a file or directory                                      |
+| `sudo chown user:group /path/to/file_or_directory` | Change ownership of a file or directory                  |
+| `sudo chmod 755 /path/to/file_or_directory`   | Change permissions of a file or directory                     |
+| `sudo du -sh /path/to/directory`              | Check disk usage                                              |
+| `sudo df -h`                                  | Check free disk space                                         |
+| `sudo reboot`                                 | Reboot the system                                             |
+| `sudo shutdown -h now`                        | Shutdown the system                                           |
+| `sudo ps aux`                                 | Check running processes                                       |
+| `sudo systemctl restart networking`           | Restart network services                                      |
+| `sudo ifconfig eth0 up`                       | Bring up network interface `eth0`                             |
+| `sudo ifconfig eth0 down`                     | Bring down network interface `eth0`                           |
+| `sudo adduser username`                       | Add a new user                                                |
+| `sudo deluser username`                       | Delete a user                                                 |
+| `sudo usermod -aG groupname username`         | Add a user to a group                                         |
+| `sudo passwd username`                        | Change a user's password                                      |
+| `sudo systemctl start service_name`           | Start a service                                               |
+| `sudo systemctl stop service_name`            | Stop a service                                                |
+| `sudo systemctl restart service_name`         | Restart a service                                             |
+| `sudo systemctl enable service_name`          | Enable a service to start at boot                             |
+| `sudo systemctl disable service_name`         | Disable a service from starting at boot                       |
+| `sudo nano /etc/fstab`                        | Edit system configuration file `/etc/fstab`                   |
+| `sudo nano /etc/hostname`                     | Edit system configuration file `/etc/hostname`                |
+| `sudo visudo`                                 | Edit the sudoers file                                         |
+| `sudo tail -f /var/log/syslog`                | View system logs (syslog)                                     |
+| `sudo tail -f /var/log/auth.log`              | View system logs (authentication log)                         |
+| `sudo apt-get install nmap`                   | Install Nmap                                                  |
 
 
 
