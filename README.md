@@ -281,38 +281,42 @@
 
 
 ***List of Environment Variables are***
-(**Sabai Capital letter ma hunxan**)
-$HOME: The current user's home directory.
-$PATH: A colon-separated list of directories that the shell searches for commands.
-$USER: The name of the current user.
-$PWD: The current working directory.
-$OLDPWD: The previous working directory.
-$SHELL: The path to the current user's shell.
-$LOGNAME: The name of the current user.
-$UID: The user ID of the current user.
-$EUID: The effective user ID of the current user.
-$HOSTNAME: The name of the host.
-$LANG: The current locale.
-$TERM: The type of terminal to emulate when running the shell.
-$DISPLAY: The address of the X display to use.
-$EDITOR: The default text editor to use.
-$MAIL: The path to the current user's mailbox.
-$IFS: The Internal Field Separator that is used for word splitting after expansion and to split lines into words with the read built-in command.
-$PS1: The primary prompt string.
-$PS2: The secondary prompt string.
-$PS3: The prompt string for the select command.
-$PS4: The prompt string for the shell's debugging mode.
-$COLUMNS: The number of text columns in the terminal.
-$LINES: The number of text lines in the terminal.
-$OSTYPE: The type of operating system.
-$MACHTYPE: The type of machine (hardware).
-$SECONDS: The number of seconds since the shell was started.
-$RANDOM: A random number between 0 and 32767.
-$LINENO: The current line number in the script or shell.
-$BASH_VERSION: The version of the Bash shell.
-$HISTFILE: The name of the file in which command history is saved.
-$HISTFILESIZE: The maximum number of lines contained in the history file.
-$HISTSIZE: The number of commands to remember in the command history.
+(**Sabai Capital letter ma hunxan**)## Environment Variables
+
+| Variable        | Description                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------|
+| `$HOME`         | The current user's home directory.                                                                      |
+| `$PATH`         | A colon-separated list of directories that the shell searches for commands.                             |
+| `$USER`         | The name of the current user.                                                                           |
+| `$PWD`          | The current working directory.                                                                          |
+| `$OLDPWD`       | The previous working directory.                                                                         |
+| `$SHELL`        | The path to the current user's shell.                                                                   |
+| `$LOGNAME`      | The name of the current user.                                                                           |
+| `$UID`          | The user ID of the current user.                                                                        |
+| `$EUID`         | The effective user ID of the current user.                                                              |
+| `$HOSTNAME`     | The name of the host.                                                                                   |
+| `$LANG`         | The current locale.                                                                                     |
+| `$TERM`         | The type of terminal to emulate when running the shell.                                                 |
+| `$DISPLAY`      | The address of the X display to use.                                                                    |
+| `$EDITOR`       | The default text editor to use.                                                                         |
+| `$MAIL`         | The path to the current user's mailbox.                                                                 |
+| `$IFS`          | The Internal Field Separator that is used for word splitting after expansion and to split lines into words with the `read` built-in command. |
+| `$PS1`          | The primary prompt string.                                                                              |
+| `$PS2`          | The secondary prompt string.                                                                            |
+| `$PS3`          | The prompt string for the `select` command.                                                             |
+| `$PS4`          | The prompt string for the shell's debugging mode.                                                       |
+| `$COLUMNS`      | The number of text columns in the terminal.                                                             |
+| `$LINES`        | The number of text lines in the terminal.                                                               |
+| `$OSTYPE`       | The type of operating system.                                                                           |
+| `$MACHTYPE`     | The type of machine (hardware).                                                                         |
+| `$SECONDS`      | The number of seconds since the shell was started.                                                      |
+| `$RANDOM`       | A random number between 0 and 32767.                                                                    |
+| `$LINENO`       | The current line number in the script or shell.                                                         |
+| `$BASH_VERSION` | The version of the Bash shell.                                                                          |
+| `$HISTFILE`     | The name of the file in which command history is saved.                                                 |
+| `$HISTFILESIZE` | The maximum number of lines contained in the history file.                                              |
+| `$HISTSIZE`     | The number of commands to remember in the command history.                                              |
+
 
 
 
